@@ -4,7 +4,7 @@ name: issue-automation
 
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   automate-issues-labels:
