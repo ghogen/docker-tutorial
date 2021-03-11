@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "apply-label"
-      - uses: andymckay/labeler@master
+        uses: andymckay/labeler@master
         with:
           add-labels: "product-feedback"
           ignore-if-labeled: true
