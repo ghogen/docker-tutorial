@@ -16,6 +16,7 @@ jobs:
   automate-issues-labels:
     runs-on: ubuntu-latest
     steps:
+      - name: "apply-label"
       - uses: andymckay/labeler@master
         with:
           add-labels: "product-feedback"
