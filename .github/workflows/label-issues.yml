@@ -3,6 +3,12 @@
 name: issue-automation
 
 on:
+  workflow_dispatch:
+    inputs:
+      mylabel:
+         description: "Label to apply"
+         required: false
+         default: "product-feedback"
   schedule:
     - cron: "*/5 * * * *"
 
